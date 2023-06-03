@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.comteiner {
+    width: 80%;
+    margin: auto;
+}
+
+.card {
+    width: 80%;
+    height: 400px;
+    margin: auto;
+    text-align: center;
+    padding: 80px;
+}
+
+.input {
+    text-align: center;
+}
+
+input {
+    margin-top: 10px;
+    width: 90%;
+    height: 40px;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+textarea {
+    margin-top: 10px;
+    width: 90%;
+    height: 40px;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.button {
+    margin-top: 10px;
+    width: 90%;
+    height: 40px;
+    padding: 10px;
+    background-color: #23A455;
+    border: none;
+    border-radius: 3px;
+}
+h2{
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width:700px){
+    h2{
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width:545px){
+    h2{
+        font-size: 15px;
+    }
+
+    input {
+        margin-top: 10px;
+        height: 30px;
+        padding: 10px;
+        border-radius: 3px;
+    }
+    
+    textarea {
+        height: 30px;
+        padding: 8px;
+        border-radius: 3px;
+    }
+    
+    .button {
+        height: 30px;
+        padding: 8px;
+        background-color: #23A455;
+        border: none;
+        border-radius: 3px;
+    }
+    
+}
+
+@media only screen and (max-width:458px){
+    h2{
+        font-size: 13px;
+    }
+
+    input {
+        height: 25px;
+        padding: 6px;
+    }
+    
+    textarea {
+        height: 25px;
+        padding: 6px;
+    }
+    
+    .button {
+        height: 25px;
+        padding: 5px;
+        background-color: #23A455;
+        border: none;
+        border-radius: 3px;
+    }
+    
+}
